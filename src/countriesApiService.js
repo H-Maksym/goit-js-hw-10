@@ -1,6 +1,6 @@
-BASE_URL = "https://restcountries.com/v3.1/";
-FILTER_SEARCH = `?fields=name,capital,population,flags,languages`
-COLLECTION = "name/"
+const BASE_URL = "https://restcountries.com/v3.1/";
+const FILTER_SEARCH = `?fields=name,capital,population,flags,languages`
+const COLLECTION = "name/"
 
 export default class CountriesApiService {
     constructor() {
